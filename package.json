@@ -1,0 +1,17 @@
+{
+  "name": "multiple-entrypoint-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm dev"
+  },
+  "pnpm": {
+    "overrides": {
+      "@vendor/package": "link:./package"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

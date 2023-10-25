@@ -1,0 +1,5 @@
+export type B = "b";
+
+export function x_b() {
+  console.log("hello from b");
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig", // For in-editor Intellisense
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "strict": true, /* Enable all strict type-checking options. */
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "traceResolution": true,
+    "module": "ESNext",
+    "target": "ES2022",
+    "esModuleInterop": true
+  }
+}
